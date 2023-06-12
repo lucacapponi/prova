@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search an artist</title>
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="discover.js">
+</head>
+<body>
+    <!--logo + link ad alm4music home.bar-->
+    <header class="boxheader">
+        <a href="index.html"><h4 id="h4header">Alm4Music</h4></a>
+        <p id="pheader">Scopri i musicisti che frequetntano le tue stesse aule</p>
+    </header>
+    <!--trending artist di immagini che scorrono -->
+    <div class="boxbody">
+        <h3>Lasciati ispirare:</h3>
+        <div class="boxspotify">
+             <iframe style="border-radius:12px" id="spotify" src="https://open.spotify.com/embed/playlist/2I2BMm5iZa8rH656XetNIv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="imgtrending">
+            <!--
+        <img src="images/1.jpg" alt="" id="img1">
+        <img src="images/2.jpg" alt="" id="img2">
+        <img src="images/3.JPG" alt="" id="img3"> -->
+        </div>
+        <br>
+        <br>
+        <hr>
+        <!--search bar and upload link-->
+            <!--<h3>All artists:</h3> -->
+        <div id="searchupload" class="nav">
+            <div class="modulo-ricerca">
+            <input id="search" type="text" placeholder="Search for band, artists.. " required>
+            <input id="submit" type="submit" value="Search ">
+            <i class="fa-solid fa-magnifying-glass" style="color: #511f1f;"></i>
+            </div> 
+            <div id="or">
+                <p>or</p>
+            </div>
+            <div id="buttonupload">
+            <a href="http://" target="_blank" rel="noopener noreferrer" id="uploadyourown">Upload your own</a>
+            </div>
+        </div>
+    </div>
+    <!--tutte le immagini e didascalie degli artisti-->
+</body>
+</html>

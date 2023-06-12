@@ -1,0 +1,330 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: static;
+}
+
+body {
+    display: block;
+    background-color: rgb(242, 242, 242);
+    position: static;
+}
+
+/* HEADER */
+
+.boxheader {
+    position: static;
+    top:-50px;
+    background-color: #AC3A31;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+}
+
+.boxbody {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -69px;
+    height: 1000px;
+    position: static;
+}
+
+header img {
+    height: 300px;
+    position: static;
+}
+
+#h4header {
+    position: static;
+    margin-left: 670px ;
+    margin-top: -200px;
+    font-size: 30px;
+}
+
+#pheader {
+    position: static;
+    margin-left: 550px ;
+}
+
+/* CONTAINER
+.slider-container
+{
+    width: 800px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container
+{
+    width: 2400px;
+    background-color: red;
+    height: 400px;
+    clear: both;
+    position: relative;
+   
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+#slider-image-1:target ~ .image-container
+{
+   left: 0px;
+}
+#slider-image-2:target ~ .image-container
+{
+   left: -800px;
+}
+#slider-image-3:target ~ .image-container
+{
+   left: -1600px;
+}
+
+.button-container
+{
+	position: relative;
+	top: -20px;
+    left: 200px;
+}
+.slider-change
+{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: brown;
+}
+*/
+
+
+
+/* LASCIATI ISPIRARE */
+h3 {
+    position: static;
+    margin-left: 850px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+.boxspotify {
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: static;
+}
+
+#spotify {
+    width: 300px;
+    height: 700px;
+    position: static;
+    margin-left: 800px;
+    margin-top: 0px;
+}
+
+
+
+/*
+.imgtrending img {
+    
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; 
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 200px;
+}
+
+.imgtrending {
+    position: relative;
+    margin-left:0px;
+}
+*/
+
+
+.modulo-ricerca {
+    background-color: #f6f6f6;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px;
+    width: 520px;
+    position: static;
+  }
+  
+  .modulo-ricerca #search {
+    border: 1px solid #DDD;
+    -webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #999;
+    float: left;
+    font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
+    box-sizing: border-box;
+    height: 42px;
+    padding: 10px;
+    width: 400px;
+    position: static;
+  }
+
+  .modulo-ricerca #search:-moz-placeholder,
+  .modulo-ricerca #search:-ms-input-placeholder,
+  .modulo-ricerca #search::-webkit-input-placeholder {
+    color: #ababab;
+    font-weight: normal;
+    position: static;
+  }
+
+  .modulo-ricerca #submit {
+    background-color: #ababab;
+    border: 1px solid #ababab;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    height: 42px;
+    float: right;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 100px;
+    position: static;
+  }
+  
+  .modulo-ricerca #submit:hover,
+  .modulo-ricerca #submit:focus,
+  .modulo-ricerca #submit:active {
+    background-color: grey;
+  }
+
+#searchupload {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -810px;
+}
+
+.modulo-ricerca {
+    margin-left: -450px;
+    position: static;
+}
+
+#or {
+    margin-left: 10px;
+    position: static;
+}
+
+#buttonupload {
+    margin-left: 10px;
+    position: static;
+}
+
+#uploadyourown {
+    transition-property: all;
+    transition-duration: .7s;
+    float: right;
+    outline: none;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: -70px;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    border-radius: 32px;
+    background-color:#AC3A31;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    position: static;
+}
+
+#uploadyourown:hover {
+    background-color: #8c2e27;
+}
+
+@media screen and (max-width: 320px){
+    body {background:#FF8000;}
+    .boxheader { background-color: #00661A;}
+}
+    
+@media screen and (min-width: 321px) and (max-width: 480px){
+    body {background:#00661A;}
+}
+    
+@media screen and (min-width: 481px) and (max-width: 600px){
+    body {background:#D900D9;}
+}
+    
+@media screen and (min-width: 601px) and (max-width: 768px){
+    body {background:#00FFFF;}
+}
+    
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body {background:#400040;}
+}
+    
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    body {background:#0000FF;}
+    
+    .boxheader {
+        position: static;
+        top:-50px;
+        background-color: #AC3A31;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 500px;
+    }
+    
+    .boxbody {
+        background-color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -69px;
+        height: 1000px;
+        position: static;
+    }
+    
+    header img {
+        height: 300px;
+        position: static;
+    }
+    
+    #h4header {
+        position: static;
+        margin-left: 670px ;
+        margin-top: -200px;
+        font-size: 30px;
+    }
+    
+    #pheader {
+        position: static;
+        margin-left: 550px ;
+    }
+    
+}
+
+
